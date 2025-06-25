@@ -3,9 +3,6 @@
 @section('content')
 <!-- Hero Section -->
 <section class="relative min-h-screen bg-gray-900 overflow-hidden">
-    <!-- Grid Background -->
-    <div class="absolute inset-0 bg-grid-pattern opacity-5 z-1"></div>
-    
     <!-- Floating Hearts Container -->
     <div class="floating-hearts-container z-2"></div>
     
@@ -19,14 +16,14 @@
                 <!-- Left Content -->
                 <div class="lg:col-span-6 text-white" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
                     <div class="mb-8">
-                        <h1 class="hero-title text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-                            <span class="word-1 block text-white opacity-0 glitch-effect">Declare</span>
-                            <span class="word-2 block text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-pink-600 romantic-font opacity-0 shimmer-effect">seu amor</span>
+                        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-2">
+                            <span class="block text-white" style="line-height: 0.9;">Faça sua</span>
+                            <span class="block text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-pink-600 romantic-font">Declaração</span>
                         </h1>
-                        <p class="hero-subtitle text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-xl opacity-0">
-                            Crie uma página personalizada para quem você ama e 
-                            surpreenda a pessoa com uma declaração especial que ficará 
-                            para sempre.
+                        <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-xl">
+                            Transforme seus sentimentos em uma página única e inesquecível. 
+                            Deixe seu amor eternizado em uma declaração que tocará o coração 
+                            de quem você ama.
                         </p>
                     </div>
 
@@ -42,30 +39,6 @@
 
                     <!-- Social Proof with Floating Animation -->
                     <div class="hero-social-proof flex items-center space-x-4 opacity-0" data-aos="fade-up" data-aos-delay="1000">
-                        <div class="flex -space-x-2">
-                            <div class="w-10 h-10 bg-gradient-to-r from-pink-400 to-red-400 rounded-full border-2 border-gray-800 flex items-center justify-center floating-avatar" style="animation-delay: 0s">
-                                <span class="text-white font-bold text-sm">M</span>
-                            </div>
-                            <div class="w-10 h-10 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full border-2 border-gray-800 flex items-center justify-center floating-avatar" style="animation-delay: 0.2s">
-                                <span class="text-white font-bold text-sm">A</span>
-                            </div>
-                            <div class="w-10 h-10 bg-gradient-to-r from-red-400 to-pink-400 rounded-full border-2 border-gray-800 flex items-center justify-center floating-avatar" style="animation-delay: 0.4s">
-                                <span class="text-white font-bold text-sm">L</span>
-                            </div>
-                            <div class="w-10 h-10 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full border-2 border-gray-800 flex items-center justify-center floating-avatar" style="animation-delay: 0.6s">
-                                <span class="text-white font-bold text-sm">+</span>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex items-center text-yellow-400 mb-1 star-glow">
-                                <span class="star-glow">⭐</span>
-                                <span class="star-glow">⭐</span>
-                                <span class="star-glow">⭐</span>
-                                <span class="star-glow">⭐</span>
-                                <span class="star-glow">⭐</span>
-                            </div>
-                            <div class="text-gray-400 font-medium text-sm counter-animation">Mais de <span class="count-up">40325</span> usuários satisfeitos</div>
-                        </div>
                     </div>
                 </div>
 
@@ -109,10 +82,9 @@
 
 <!-- How it Works Section -->
 <section class="step-section py-20 bg-gray-900 relative">
-    <div class="absolute inset-0 bg-grid-pattern opacity-3"></div>
     <div class="relative z-10 max-w-8xl mx-auto px-8 lg:px-16 xl:px-20">
         <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 romantic-font wave-text">
+            <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-pink-600 mb-8 romantic-font">
                 Crie sua página em poucos passos
             </h2>
             <p class="text-lg md:text-xl text-gray-400 max-w-4xl mx-auto">
@@ -123,81 +95,94 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
             <!-- Step 1 -->
-            <div class="step-card group step-animation-1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                <div class="step-number">
-                    <div class="number-circle magnetic-effect pulse-number">1</div>
-                    <div class="step-connector animated-line flowing-line"></div>
-                </div>
-                <div class="step-icon bounce-icon glow-icon">
-                    <svg class="w-12 h-12 mx-auto text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>
+            <div class="feature-card-modern">
+                <div class="feature-icon-modern hover-rotate">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-pink-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32L19.513 8.2z" />
                     </svg>
                 </div>
-                <h3 class="step-title animated-title">Personalize</h3>
-                <p class="step-description fade-in-text">
-                    Personalize sua página com fotos, mensagens, efeitos especiais e muito mais.
+                <h3 class="feature-title-modern">Personalize</h3>
+                <p class="feature-description-modern">
+                    Personalize sua página com fotos, mensagens e muito mais.
                 </p>
             </div>
 
             <!-- Step 2 -->
-            <div class="step-card group step-animation-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
-                <div class="step-number">
-                    <div class="number-circle magnetic-effect pulse-number">2</div>
-                    <div class="step-connector animated-line flowing-line"></div>
-                </div>
-                <div class="step-icon bounce-icon glow-icon">
-                    <svg class="w-12 h-12 mx-auto text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+            <div class="feature-card-modern">
+                <div class="feature-icon-modern hover-rotate">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-pink-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4.5 3.75a3 3 0 00-3 3v.75h21v-.75a3 3 0 00-3-3h-15z" />
+                        <path fill-rule="evenodd" d="M22.5 9.75h-21v7.5a3 3 0 003 3h15a3 3 0 003-3v-7.5zm-18 3.75a.75.75 0 01.75-.75h6a.75.75 0 010 1.5h-6a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z" clip-rule="evenodd" />
                     </svg>
                 </div>
-                <h3 class="step-title animated-title">Faça o pagamento</h3>
-                <p class="step-description fade-in-text">
+                <h3 class="feature-title-modern">Faça o pagamento</h3>
+                <p class="feature-description-modern">
                     Escolha seu plano preferido e faça o pagamento de forma rápida e segura.
                 </p>
             </div>
 
             <!-- Step 3 -->
-            <div class="step-card group step-animation-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
-                <div class="step-number">
-                    <div class="number-circle magnetic-effect pulse-number">3</div>
-                    <div class="step-connector animated-line flowing-line"></div>
-                </div>
-                <div class="step-icon bounce-icon glow-icon">
-                    <svg class="w-12 h-12 mx-auto text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 7.89a2 2 0 002.83 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            <div class="feature-card-modern">
+                <div class="feature-icon-modern hover-rotate">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-pink-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.644 1.59a.75.75 0 01.712 0l9.75 5.25a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.712 0l-9.75-5.25a.75.75 0 010-1.32l9.75-5.25z" />
+                        <path d="M3.265 10.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z" />
+                        <path d="M3.265 13.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z" />
                     </svg>
                 </div>
-                <h3 class="step-title animated-title">Receba seu acesso</h3>
-                <p class="step-description fade-in-text">
+                <h3 class="feature-title-modern">Receba seu acesso</h3>
+                <p class="feature-description-modern">
                     Você receberá por email um QR code e link para acessar sua página.
                 </p>
             </div>
 
             <!-- Step 4 -->
-            <div class="step-card group step-animation-4" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
-                <div class="step-number">
-                    <div class="number-circle magnetic-effect pulse-number">4</div>
-                </div>
-                <div class="step-icon bounce-icon glow-icon">
-                    <svg class="w-12 h-12 mx-auto text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"/>
+            <div class="feature-card-modern">
+                <div class="feature-icon-modern hover-rotate">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-pink-400" viewBox="0 0 24 24" fill="currentColor">
+                        <path fill-rule="evenodd" d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z" clip-rule="evenodd" />
                     </svg>
                 </div>
-                <h3 class="step-title animated-title">Compartilhe o amor</h3>
-                <p class="step-description fade-in-text">
+                <h3 class="feature-title-modern">Compartilhe o amor</h3>
+                <p class="feature-description-modern">
                     Compartilhe a página com a pessoa amada e surpreenda-a de forma especial.
                 </p>
             </div>
         </div>
+
+        <style>
+            .feature-card-modern {
+                @apply bg-[#0B0F19] rounded-[20px] p-8 text-center;
+            }
+            
+            .feature-icon-modern {
+                @apply mb-6;
+            }
+            
+            .feature-title-modern {
+                @apply text-white text-xl font-semibold mb-3;
+            }
+            
+            .feature-description-modern {
+                @apply text-gray-400;
+            }
+
+            .hover-rotate {
+                transition: transform 0.3s ease;
+            }
+
+            .hover-rotate:hover {
+                transform: rotate(10deg);
+            }
+        </style>
     </div>
 </section>
 
 <!-- Features Section -->
 <section class="feature-section py-20 bg-black relative">
-    <div class="absolute inset-0 bg-grid-pattern opacity-5"></div>
     <div class="relative z-10 max-w-8xl mx-auto px-8 lg:px-16 xl:px-20">
         <div class="text-center mb-16" data-aos="zoom-in" data-aos-duration="1000">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 romantic-font neon-wave">
+            <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-pink-600 mb-8 romantic-font">
                 Recursos Exclusivos
             </h2>
             <p class="text-lg md:text-xl text-gray-400 max-w-4xl mx-auto">
@@ -290,12 +275,10 @@
 
 <!-- Pricing Section -->
 <section class="pricing-section py-20 bg-gradient-to-br from-gray-900 to-black relative">
-    <div class="absolute inset-0 bg-grid-pattern opacity-3"></div>
-    
     <div class="relative z-10 max-w-7xl mx-auto px-8 lg:px-16 xl:px-20">
         <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 romantic-font gradient-text-animated">
-                Uma <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400 pulse-glow">declaração de amor</span>
+            <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-pink-600 mb-8 romantic-font">
+                Uma declaração de amor
             </h2>
             <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12">
                 Escolha o plano perfeito para eternizar sua história de amor
@@ -308,7 +291,7 @@
             <!-- Plano Anual -->
             <div class="pricing-card-modern-new pricing-card-left" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                 <div class="pricing-header-new">
-                    <h3 class="plan-title-new">Mensal</h3>
+                    <h3 class="plan-title-new">Anual</h3>
                     <p class="plan-subtitle-new">Ideal para testar nossa plataforma</p>
                 </div>
                 
@@ -465,7 +448,6 @@
 <!-- CTA Final -->
 <section class="py-20 bg-gradient-to-r from-pink-600 via-red-500 to-pink-600 text-white text-center relative overflow-hidden final-cta-section">
     <div class="absolute inset-0 bg-black opacity-20"></div>
-    <div class="absolute inset-0 bg-grid-pattern opacity-10"></div>
     
     <!-- Animated Background Elements -->
     <div class="absolute inset-0 overflow-hidden">
@@ -1144,9 +1126,10 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: linear-gradient(45deg, #ec4899, #ef4444);
+    background: url('/images/gallery/casal.png') center center/cover;
     margin: 0 auto 15px;
-    border: 3px solid rgba(255, 255, 255, 0.1);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 20px rgba(227, 30, 36, 0.3);
 }
 
 .mockup-names-modern {
@@ -1165,7 +1148,7 @@ body {
 
 .mockup-image-modern {
     height: 250px;
-    background: linear-gradient(45deg, #ec4899, #ef4444, #ec4899);
+    background: url('/images/gallery/casal2.png') center center/cover;
     border-radius: 20px;
     margin-bottom: 25px;
     position: relative;
